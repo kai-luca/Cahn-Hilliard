@@ -1,6 +1,12 @@
 #include "solver.h"
 
 #define FOUR_PI_SQUARED 39.478417604357432
+// FFTW plans for real-valued forward & backard 2-D DFT
+fftw_complex *cval;
+double       *rval;
+fftw_plan rfft2;
+fftw_plan irfft2;
+
 
 
 double hh = 1.0 / (N_DISCR*N_DISCR);

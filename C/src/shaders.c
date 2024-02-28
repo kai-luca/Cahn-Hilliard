@@ -1,4 +1,13 @@
 #include "shaders.h"
+const GLchar* vertexSource;
+const GLchar* geometrySource;
+const GLchar* fragmentSource;
+
+GLuint vertexShader;
+GLuint geometryShader;
+GLuint fragmentShader;
+extern GLuint shaderProgram;
+
 
 
 void init_shaders() {

@@ -1,3 +1,4 @@
+#pragma once
 #ifndef _SOLVER_H_
 #define _SOVLER_H_
 
@@ -21,11 +22,5 @@ void non_linear_term(fftw_complex *c, fftw_complex *out);
 
 void init_solver(double *c, double dt);
 void free_solver();
-
-// FFTW plans for real-valued forward & backard 2-D DFT
-fftw_complex *cval;
-double       *rval;
-fftw_plan rfft2;
-fftw_plan irfft2;
 
 #endif

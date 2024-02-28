@@ -12,6 +12,7 @@
 #define min(a, b)   ((a < b) ?  a: b)
 
 
+GLuint shaderProgram;
 int main(int argc, char* argv[]) {
 
     // Initialise window & shaders

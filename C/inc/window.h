@@ -1,3 +1,4 @@
+#pragma once
 #ifndef _WINDOW_H_
 #define _WINDOW_H_
 
@@ -7,7 +8,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool drag;
 
 GLFWwindow *init_window();
 
