@@ -2,10 +2,15 @@
 
 This project pertains to the numerical resolution of the Cahn-Hilliard equation in its dimensionless, constant mobility form,
 
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;c}{\partial&space;t}&space;=&space;\nabla^2\left(c^3&space;-&space;c&space;-&space;\kappa\nabla^2c\right)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;c}{\partial&space;t}&space;=&space;\nabla^2\left(c^3&space;-&space;c&space;-&space;\kappa\nabla^2c\right)" title="\frac{\partial c}{\partial t} = \nabla^2\left(c^3 - c - \kappa\nabla^2c\right)" /></a></p>
+```math
+\frac{\partial c}{\partial t} = \nabla^2\left(c^3 - c - \kappa\nabla^2c\right)
+```
 
 and with variable mobility,
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;c}{\partial&space;t}&space;=&space;\nabla\cdot\left[(1-c^2)\nabla\left(c^3&space;-&space;c&space;-&space;\kappa\nabla^2c\right)\right]." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;c}{\partial&space;t}&space;=&space;\nabla\cdot\left[(1-c^2)\nabla\left(c^3&space;-&space;c&space;-&space;\kappa\nabla^2c\right)\right]." title="\frac{\partial c}{\partial t} = \nabla\cdot\left[(1-c^2)\nabla\left(c^3 - c - \kappa\nabla^2c\right)\right]." /></a></p>
+
+```math
+\frac{\partial c}{\partial t} = \nabla\cdot\left[(1-c^2)\nabla\left(c^3 - c - \kappa\nabla^2c\right)\right].
+```
 
 Two projects at the UCLouvain were completed based on the solvers implemented in this repository. The [first one](LMECA2300.pdf) was made for the LMECA2300 course and is a short report going over the implementation details. The [second one](LINMA2720.pdf) was made for the LINMA2720 course and is written in french. It focuses more on the mathematical models behind the Cahn-Hilliard equation.
 There are three different available implementations:
